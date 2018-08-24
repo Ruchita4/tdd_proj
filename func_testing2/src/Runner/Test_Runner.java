@@ -22,7 +22,7 @@ public class Test_Runner {
 		  System.setProperty("webdriver.gecko.driver","//gecko//geckodriver.exe");
 		  driver=new FirefoxDriver();
 		  
-		  driver.get("http://13.251.143.66:8090/IPL-Fantasy-League-0.0.1-SNAPSHOT/");
+		  driver.get("https://opensource-demo.orangehrmlive.com/");
 		  //sThread.sleep(5000);
 	  }
 
