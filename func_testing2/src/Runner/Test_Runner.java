@@ -18,7 +18,7 @@ public class Test_Runner {
 	  @BeforeTest
 	  public void beforeTest() throws InterruptedException {
 		  //System.setProperty("webdriver.gecko.driver","E:/source/geckodriver.exe");
-		  System.setProperty("webdriver.gecko.driver","/usr/local/bin/");
+		  System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver");
 		  driver=new FirefoxDriver();
 		  
 		  driver.get("http://13.251.143.66:8090/IPL-Fantasy-League-0.0.1-SNAPSHOT/");
