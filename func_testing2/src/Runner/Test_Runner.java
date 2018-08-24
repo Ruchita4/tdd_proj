@@ -18,6 +18,7 @@ public class Test_Runner {
 	  @BeforeTest
 	  public void beforeTest() throws InterruptedException {
 		  //System.setProperty("webdriver.gecko.driver","E:/source/geckodriver.exe");
+		  System.out.println("helllooooo");
 		  System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver");
 		  driver=new FirefoxDriver();
 		  
